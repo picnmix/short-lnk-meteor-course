@@ -1,0 +1,28 @@
+/******************************************
+*  Author : Jake   
+*  Created On : Mon Oct 29 2018
+*  File : _item.scss
+*******************************************/
+
+
+.item {
+    margin-bottom: $space;
+    padding: $space;
+    border: 1px solid $item-border;
+    background-color: $item-bg-colour;
+}
+
+.item__message {
+    color: $item-text-colour;
+}
+
+.item__status-message {
+    margin: 0;
+    color: $item-text-colour;
+    font-style: italic;
+    text-align: center;
+}
+
+
+
+/*** Styles end... */

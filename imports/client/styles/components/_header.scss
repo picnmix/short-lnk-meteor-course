@@ -1,0 +1,33 @@
+/******************************************
+*  Author : Jake   
+*  Created On : Mon Oct 29 2018
+*  File : _header.scss
+*******************************************/
+
+
+.header {
+    text-align: center;
+    background-color: $brand-primary;
+}
+
+.header-wrapper {
+    margin: 0 auto;
+    padding: 1rem $space;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: $site-max-width;
+}
+
+.header-wrapper__title {
+    margin-bottom: 0;
+    display: inline-block;   
+    color: $header-colour;
+    font-size: 2.6rem;
+}
+
+
+
+
+
+/*** Styles end... */

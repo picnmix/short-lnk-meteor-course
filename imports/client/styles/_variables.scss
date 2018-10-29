@@ -1,0 +1,46 @@
+/******************************************
+*  Author : Jake   
+*  Created On : Fri Oct 26 2018
+*  File : _variables.scss
+*******************************************/
+
+
+// Colours.
+$grey: rgb(221, 221, 221);
+$brand-primary: rgb(91, 70, 129);
+$header-colour: rgb(255, 255, 255);
+$light-grey: rgb(249, 249, 249);
+$dark-grey: rgb(119, 119, 119);
+
+// Spacing.
+$space: 1.4rem;
+$site-max-width: 50rem;
+
+// Font sizes.
+$base-font-size: 1.6rem;
+$large-font-size: 1.8rem;
+
+// Buttons.
+$button-bg: $brand-primary;
+$button-colour: rgb(255, 255, 255);
+$button-secondary-bg: rgb(249, 249, 249);
+$button-secondary-colour: $dark-grey;
+$button-secondary-border-colour: $grey;
+$button-pill-colour: $brand-primary;
+
+// Form fields.
+$input-border: $grey;
+$input-spacing: 1rem;
+
+// Boxed view.
+$boxed-view-overlay-bg: $grey;
+$boxed-view-bg: rgb(255, 255, 255);
+
+// Item
+$item-bg-colour: $light-grey;
+$item-border: darken($light-grey, 8%);
+$item-text-colour: $dark-grey;
+
+
+
+/*** Styles end... */

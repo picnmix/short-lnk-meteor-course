@@ -1,0 +1,38 @@
+/******************************************
+*  Author : Jake   
+*  Created On : Fri Oct 26 2018
+*  File : _boxed-view.scss
+*******************************************/
+
+
+.boxed-view {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $boxed-view-overlay-bg;
+}
+
+.boxed-view__box {
+    padding: 2.4rem;
+    width: 24rem;
+    text-align: center;
+    background-color: $boxed-view-bg;
+}
+
+.boxed-view__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxed-view--modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: fade-out($boxed-view-overlay-bg, .3); 
+}
+
+/*** Styles end... */
