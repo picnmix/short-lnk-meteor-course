@@ -1,1 +1,2 @@
-Short Lnk
+Short Lnk App
+by: Jake
